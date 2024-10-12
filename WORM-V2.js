@@ -1,4 +1,3 @@
-<script type="text/javascript">
 window.onload = function(){
     //JavaScript code to access user name, user guid, Time Stamp __elgg_ts
     //and Security Token __elgg_token
@@ -29,5 +28,5 @@ window.onload = function(){
     Ajax.send();
   
 }
-</script>
+
 
