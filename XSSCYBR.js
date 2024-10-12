@@ -1,3 +1,1 @@
-window.onload = function() {
-    alert('This was toooooo long to put in the short little bio');
-};
+alert('This was toooooo long to put in the short little bio');
